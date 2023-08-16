@@ -1,0 +1,63 @@
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.dice {
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+
+body {
+    background-color: rgb(35, 31, 241);
+    margin: 0;
+}
+
+h1 {
+    margin: 30px;
+    font-family: "Lobster", cursive;
+    text-shadow: 5px 0  #971ed8;
+    font-size: 4.5rem;
+    color: #fa07b1;
+    text-align: center;
+}
+
+p {
+    font-size: 2rem;
+    color:#fa07b1 ;
+    font-family: "Indie Flower", cursive;
+}
+
+img {
+    width: 100%;
+}
+
+.bottom {
+    padding-top: 30px;
+}
+
+.btn {
+    background:rgb(138, 231, 244);
+    font-family: "Indie Flower", cursive;
+    border-radius: 7px;
+    color:#fa07b1;
+    font-size: 30px;
+    padding: 16px 25px 16px 25px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: rgb(17, 18, 18);
+    color:aliceblue;
+    text-decoration: none;
+}
+
+
+.even-roll {
+transition: transform 1.5s ease-out;
+}
+.odd-roll {
+transition: transform 1.25s ease-out;
+}
